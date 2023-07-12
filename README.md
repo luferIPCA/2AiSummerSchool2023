@@ -10,5 +10,6 @@
 
 + Payment_test.sol	- Unit Testing
 
-ToDo: import solido file (.sol) into Remix Etherium IDE
+ToDo: import solid file (.sol) into Remix Etherium IDE
+
 https://remix.ethereum.org/
