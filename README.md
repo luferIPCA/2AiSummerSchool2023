@@ -4,11 +4,11 @@
 # Luís Ferreira - lufer@ipca.pt
 -------------------------------
 
-+ Payment - light.sol 	- Part of the solution
++ Payment-I.sol 	- Part of the solution
 
 + Payment.sol 		- Solution
 
-+ Payment_test.sol	- Unit Testing
++ Payment_test.sol	- Unit Testing (import to "test" folder)
 
 ToDo: import solid file (.sol) into Remix Etherium IDE
 

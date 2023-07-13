@@ -8,7 +8,7 @@
 pragma solidity ^0.8.18;
 
 contract Payment {
-    address public owner;
+    address owner;
     uint balance;
 
     //create an instance of Payment
@@ -21,8 +21,17 @@ contract Payment {
     }
 
 
-    function GetBalance() isAdmin public view returns (uint256) {
+    function getBalance() public view returns (uint256) {
         //...
         return balance;
     }
+
+   /**
+     * @dev getOwner()
+     * @dev Return owner address 
+     * @return address of owner
+     */
+    function getOwner() external view returns (address) {
+        return owner;
+    }	
 }
